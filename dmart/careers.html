@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers</title>
+    <style>
+        * {
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            margin-top: 0px;
+            box-sizing: border-box;
+            
+        }
+
+        #first_box {
+            margin: 0px;
+            position: fixed;
+            background-color: white;
+            box-shadow: 3px 2px 2px rgb(164, 163, 163);
+
+
+        }
+        .d2 {
+            color: black;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
+        }
+
+        .inside_div {
+            text-align: center;
+            padding-top: 20px;
+
+        }
+
+        .inside_div:hover {
+            background-color: #caf8d3;
+            color: #80be8b;
+        }
+
+        #nav_bar {
+            padding: 25px;
+
+        }
+        .footer {
+            color: white;
+            text-decoration: none;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            margin-left: 140px;
+            margin-right: 140px;
+            min-height: 45px;
+            line-height: 45px;
+            font-size: 14px;
+            margin-bottom:0px;
+        } 
+    </style>
+</head>
+<body>
+    
+    <div id="first_box" style="width:100%;height:77px;">
+        <a href="DMART.html"><img id="logo" src="logo.png" alt="logo"
+                style="margin-left: 120px;margin-top:12px;"></a>
+        <div style="width:75%;height:77px;border: 2px solid white;margin-left: 340px;margin-top:-63px;">
+            <nav id="nav_bar">
+                <div class="inside_div"
+                    style="width:13%;height:70px;border: 0px solid white;margin-left:-27px;margin-top:-20px;">
+                    <a class="d2" href="about_us.html">ABOUT US</a>
+                </div>
+                <div class="inside_div"
+                    style="width:13%;height:70px;border: 0px solid white;margin-left:115px;margin-top:-70px;">
+                    <a class="d2" href="categories.html">CATEGORIES</a>
+                </div>
+                <div class="inside_div"
+                    style="width:14%;height:70px;border: 0px solid white;margin-left:270px;margin-top:-70px;">
+                    <a class="d2" href="social_outreach.html">SOCIAL OUTREACH</a>
+                </div>
+                <div class="inside_div"
+                    style="width:15%;height:70px;border: 0px solid white ;margin-left:450px;margin-top:-70px;">
+                    <a class="d2" href="partner_with_us.html">PARTNER WITH US</a>
+                </div>
+                <div class="inside_div"
+                    style="width:15%;height:70px;border: 0px solid white;margin-left:600px;margin-top:-70px;">
+                    <a class="d2" href="careers.html">CAREERS</a>
+                </div>
+                <div class="inside_div"
+                    style="width:15%;height:70px;border: 0px solid white;margin-left:736px;margin-top:-70px;">
+                    <a class="d2" href="feedback.html">FEEDBACK</a>
+                </div>
+            </nav>
+        </div>
+        <div style="width:20%;height:50px;margin-top:-50px;margin-left:1275px;text-align:left;">
+            <img src="icons8-facebook-35.png" alt="">
+            <img src="icons8-linkedin-35.png">
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+    <div style="width:100%;height:700px;border:2px solid white;">
+       <b style="font-size:x-large;"> Career Opportunities</b>
+        <div style="width:35%;height:1000px;border-right:1px solid black;margin-right: 100px;margin-top:10px;background-color: gainsboro;">
+        Search for Openings
+        <div style="width:70%;height:700px;border-right:0px solid black;margin-right: 100px;margin-top:10px;margin-left:50px;background-color: gainsboro;">
+            <lable for="keyword">keyword</lable>
+            <input type="text" id="keyword" style="margin-top: 5px;" >
+            <div style="width:5%;height:10px;border:0px solid black;margin-right: 100px;margin-top:10px;margin-left:80px;"></div>
+            <div style="margin-left:100px;margin-top:-15px;">Exact match</div>
+            <br>
+            <input style="margin-left:80px;" type="radio"  value="in job title">in job title 
+            <br>
+            <br>
+            <input style="margin-left:80px;"  type="radio"  value="in job title">in job title or description
+            <br>
+            <br>
+                                                                                                     
+
+            <ul type="none">
+            <li><lable style="margin-left:0px;margin-top:20px;" for ="entity">entity:</lable>
+            <select style="margin-left:50px;margin-top:-80px;" name="" id="entity">
+                
+                <option  value="select">any</option>
+                <option value="select">Select all</option>
+            </select></li><br>
+            <li> <lable style="margin-left:0px;"  for ="entity"> Location:</lable>
+            <select style="margin-left:28px;margin-top:-80px;" name="" id="Location">
+               
+                <option value="select">any</option>
+                <option value="select">Select all</option>
+            </select></li><br>
+            <li> <lable style="margin-left:0px;"  for ="entity"> Cities:</lable> 
+                <select style="margin-left:48px;margin-top:-80px;"  name="" id="city">
+               
+                <option value="select">any</option>
+                <option value="select">Select all</option>
+            </select> </li>
+                <br>
+                <li><lable style="margin-left:-30px;" for ="entity"> Job Function:</lable>
+                <select style="margin-left:25px;margin-top:-80px;"name="" id="city">
+                    <option value="select">any</option>
+                <option value="select">Select all</option>
+                </select></li>
+            </ul> 
+            <p align="center">354 Jobs match the selections</p> 
+            <button
+            style="background-color: gray;color: white;border-radius: 5px;margin-left: 80px;font-size: smaller;height: 35px;width:80px;font-weight: 600;margin-top: 60px;">clear</button>
+
+            <button
+             style="background-color: blue;color: white;border-radius: 5px;margin-left: 10px;font-size: x-small;height: 35px;width:80px;font-weight: 600;margin-top:-200px;">Search jobs</button>
+        </div>
+    </div>
+    <div style="width:60%;height:1000px;border:0px solid black;margin-left: 530px;margin-top:-1000px;">
+        <img style="width:800;height:276px;" src="dmart_Image.jpg" >
+       <h3 style="color: #27ae60;text-decoration: underline#27ae60;">Introduction to DMart:</h3>
+        <p style="margin-top:-20px;">
+            DMart is a value retail chain of hypermarkets founded on 15th May 2002 having its Corporate Office in Powai,
+            Mumbai and Head Office in Thane.
+            The hypermarket chain of DMart stores is owned and operated by Avenue Supermarts Ltd. (ASL).DMart seeks to be
+            a one-stop shopping destination for the entire family, meeting all their daily household needs offering value for
+            money. A wide selection of home utility products is offered at affordable prices, including groceries, foods,
+            toiletries, beauty products, garments, kitchenware, bed and bath linen, home appliances and much more.</p>
+            
+            <h3 style="color: #27ae60;text-decoration: underline#27ae60;">Our Vision:</h3>
+           <p style="margin-top:-20px;"> It is our continuous endeavor to investigate, identify and make available new products/categories for the
+            customer’s everyday use and at the ‘best’ value than anybody else.</p>
+            
+            <h3 style="color: #27ae60;text-decoration: underline#27ae60;">Our Mission:</h3>
+            <p style="margin-top:-20px;">To be the lowest priced retailer in the area of operation/city/region.</p>
+            
+            <h3 style="color: #27ae60;text-decoration: underline#27ae60;">Our Values:</h3>
+            <p style="margin-top:-20px;"> Action, Care and Truth.</p>
+            
+            <h3 style="color: #27ae60;text-decoration: underline#27ae60;">Culture:</h3>
+            
+            <p style="margin-top:-20px;"> We’re strong believers in deriving excellence in customer service through systematic ‘On the Job’training and rigor
+            at work. We value simplicity and humility in our people and strongly believe that integrity and merit is the only
+            route to growth. We hire professionals who share our values and unabashedly lead by example.</p>
+            
+            <h3 style="color: #27ae60;text-decoration: underline#27ae60;"> DMart Success story:</h3>
+            
+            <p style="margin-top:-20px;">DMart launched its first store in Powai in 2002. It was a humble beginning. It’s rapid expansion began in 2007.
+            DMart today has a well-established presence in 294 locations, in approx. 30 cities across11 states i.e.
+            Maharashtra,Gujarat, Chhattisgarh, Madhya Pradesh, Karnataka, Andhra Pradesh, Telangana, Tamil Nadu,
+            Rajasthan, NCR and Punjab, and we still continue to grow….</p>
+            
+            
+            <h3 style="color: #27ae60;text-decoration: underline#27ae60;"> Opportunities at DMart: What can you look forward to?</h3>
+            <ul>
+           <li>  A supportive working environment</li>
+           <li>   Enriching learning experience</li>
+           <li>    An opportunity to grow while you learn</li>
+           <li>    A fulfilling career</li>
+        </ul>
+       
+            Official Site :<a style="text-decoration: none;color: blue;" href="DMART.html"> www.dmartindia.com</a>
+            
+            
+            <br><br><br><br><br>
+            
+                
+    </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer style="width:100%;height:50px;background-color: #374553;">
+        <a class="footer" href="site_map.html">Sitemap</a></div>
+        <a class="footer" href="privacy_policy.html">Privacy Policy</a>
+        <a class="footer" href="terms_of_use.html">Terms of Use</a>
+        <a class="footer" href="investor_relations.html">Investor Relations</a>
+    </footer>
+    
+</body>
+</html>
